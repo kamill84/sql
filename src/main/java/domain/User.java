@@ -32,4 +32,11 @@ public class User {
         this.lastNami = lastNami;
         this.email = email;
     }
+
+    public User(int id, String firstNami, String lastNami, String email) {
+        this.id = id;
+        this.firstNami = firstNami;
+        this.lastNami = lastNami;
+        this.email = email;
+    }
 }

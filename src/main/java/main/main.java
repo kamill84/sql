@@ -16,10 +16,19 @@ public class main {
         Database db = new Database();
         UserDao userDao = new UserDao(db);
 
-       User user = new User ("Tomek", "Kowalski","Tomek@email.com");
 
-       userDao.save(user);
+        // dodanie
+ //      User user = new User ("Tomek", "Kowalski","Tomek@email.com");
+//       userDao.save(user);
 
+
+        // update
+   //     User user = new User (2,"Marek", "Kowalski","Tomek@email.com");
+   //     userDao.update(user);
+
+
+        //usuwanie
+     //   UserDao.delete(3);
 
     }
 
