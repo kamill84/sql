@@ -72,7 +72,7 @@ public class UserDao {
     // findAll
     public List<User> findAll() throws SQLException{
         Connection connection = db.getConnection();
-        String sql = "SELECT id,first_nami,last_name from user";
+        String sql = "SELECT id,first_nami,last_name,email from user";
         PreparedStatement ps = connection.prepareStatement(sql);
         ResultSet resultSet = ps.executeQuery();
 

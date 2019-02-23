@@ -28,7 +28,12 @@ public class main {
 
 
         //usuwanie
-     //   UserDao.delete(3);
+     // userDao.delete(3);
+
+// pokaz wszystkie
+        userDao.findAll();
+
+
 
     }
 
